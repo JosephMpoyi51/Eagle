@@ -1,0 +1,54 @@
+.eagle-form {
+    max-width: 600px;
+    margin: 1.5em 0;
+}
+
+.eagle-form-field {
+    margin-bottom: 1em;
+}
+
+.eagle-form-field label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.4em;
+}
+
+.eagle-form input,
+.eagle-form textarea,
+.eagle-form select {
+    width: 100%;
+    padding: 0.6em;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+}
+
+.eagle-form-actions button {
+    background: #2271b1;
+    color: #fff;
+    border: none;
+    padding: 0.7em 1.5em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.eagle-form-actions button:hover {
+    background: #135e96;
+}
+
+.eagle-forms-notice {
+    padding: 1em;
+    border-radius: 4px;
+    margin-bottom: 1em;
+}
+
+.eagle-forms-notice.success {
+    background: #edfaef;
+    border: 1px solid #00a32a;
+    color: #1a7f37;
+}
+
+.eagle-forms-notice.error {
+    background: #fce8e6;
+    border: 1px solid #d63638;
+    color: #8a2424;
+}
